@@ -1592,7 +1592,7 @@
                     if (resultState === 'victory') {
                         bannerEl.classList.add('banner-victory');
                         if (bannerIconEl) bannerIconEl.textContent = '🏆';
-                        gameOverTitle.textContent = gameMode === 'pvp' ? 'VICTORY' : 'VICTORY';
+                        gameOverTitle.textContent = 'VICTORY';
                     } else if (resultState === 'defeat') {
                         bannerEl.classList.add('banner-defeat');
                         if (bannerIconEl) bannerIconEl.textContent = '💀';
